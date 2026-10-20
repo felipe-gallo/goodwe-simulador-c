@@ -29,6 +29,16 @@ gcc -Wall -Wextra -Wpedantic -std=c11 main.c sessao.c -o goodwe_simulador
 ./goodwe_simulador
 ```
 
+No PowerShell, tambem e possivel executar `./build.ps1`. O script encontra `clang` ou `gcc` e gera o executavel.
+
+## Roteiro de dados para teste
+
+O arquivo `demo_input.txt` contem uma sequencia pronta para cadastrar tres sessoes, finaliza-las, listar, buscar, ordenar, calcular estatisticas e gerar o relatorio. Depois de compilar, execute:
+
+```powershell
+Get-Content .\demo_input.txt | .\goodwe_simulador.exe
+```
+
 ## Estrutura usada
 
 `typedef struct SessaoRecarga` agrupa as informacoes de uma recarga. O vetor `sessoes` armazena varias estruturas em memoria durante a execucao. A busca por ID percorre o vetor, portanto e `O(n)`. A ordenacao usa Bubble Sort por valor total, portanto e `O(n^2)` no pior caso.

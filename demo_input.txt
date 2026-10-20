@@ -1,0 +1,37 @@
+1
+Ana Souza
+ABC1D23
+Eletroposto Paulista
+GW-01
+2.50
+1
+Bruno Lima
+DEF4G56
+Eletroposto Paulista
+GW-02
+2.80
+1
+Carla Reis
+HIJ7K89
+Eletroposto Paulista
+GW-03
+2.30
+2
+1
+18.5
+42
+2
+2
+24.0
+55
+2
+3
+12.7
+31
+3
+4
+2
+5
+6
+7
+0
