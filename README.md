@@ -1,0 +1,1 @@
+# goodwe-simulador-c
